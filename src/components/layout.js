@@ -25,6 +25,15 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          MeetUp
+        </Link>
       </h1>
     )
   } else {
@@ -43,6 +52,15 @@ const Layout = ({ location, title, children }) => {
           to={`/`}
         >
           {title}
+        </Link>
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          MeetUp
         </Link>
       </h3>
     )
