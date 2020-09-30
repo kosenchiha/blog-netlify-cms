@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+  repo: kosenchiha/blog-netlify-cms
 
 media_folder: static/img
 public_folder: /img
@@ -14,8 +15,6 @@ collections:
     media_folder: ""
     public_folder: ""
     path: "{{title}}/index"
-    editor:
-      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
